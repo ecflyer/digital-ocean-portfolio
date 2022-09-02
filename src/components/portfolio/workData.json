@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Crystal Fortress",
+    "_id": "1",
+    "link": "https://www.crystal-fortress.com/",
+    "description": "Working on the Shopify eCommerce platform, I helped create and maintain the website. I also assist with back-end tasks: plugins, data management, customer service, internal company structure and organization.",
+    "image": "portfolio-01.jpg"
+  },
+  {
+    "name": "Just-for-Fun Games",
+    "_id": "2",
+    "link": "/games.html",
+    "description": "Some games I have created from tutorials to help improve my coding knowledge. I also made some custom changes to challenge myself further.",
+    "image": "portfolio-02.jpg"
+  },
+  {
+    "name": "Squirrel",
+    "_id": "3",
+    "link": "/squirrel/app.js",
+    "description": "I created squirrel to help me track my daily food intake and weight loss progress for a medically supervised approach to weight loss and a healthy lifestyle.",
+    "image": "portfolio-03.jpg"
+  }
+]
