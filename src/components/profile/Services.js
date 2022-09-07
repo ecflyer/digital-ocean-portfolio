@@ -18,7 +18,7 @@ export default function Services() {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
       </div>
-      <a href='#work' className='btn-primary'>My Work</a>
+      <a href='#mywork' className='btn-primary'>My Work</a>
     </section>
   )
 }

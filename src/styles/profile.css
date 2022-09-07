@@ -11,10 +11,11 @@
   --fw-reg: 300;
   --fw-bold: 900;
 
-  --clr-text: #cdcdcd;
-  --clr-light: #0fffff;
-  --clr-dark: #051529;
-  --clr-accent: #0d6c94;
+  --clr-text: hsl(0, 0%, 80%);
+  --clr-light: hsl(180, 100%, 53%);
+  --clr-dark: hsl(213, 78%, 9%);
+  --clr-accent: hsl(198, 84%, 32%);
+  --clr-grey: hsl(0, 0%, 13%);
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -60,10 +61,10 @@ img {
 
 strong { font-weight: var(--fw-bold); }
 
-:focus {
+/* :focus {
   outline: 3px solid var(--clr-accent);
   outline-offset: 3px;
-}
+} */
 
 .btn-primary {
   display: inline-block;
@@ -95,6 +96,11 @@ h1 { font-size: var(--fs-h1); }
 h2 { font-size: var(--fs-h2); }
 h3 { font-size: var(--fs-h3); }
 
+.section__alternate {
+  background-color: var(--clr-text);
+  color: var(--clr-dark);
+}
+
 .section__title {
   margin-bottom: .25em;
 }
@@ -118,7 +124,8 @@ h3 { font-size: var(--fs-h3); }
 
 .section__subtitle--intro,
 .section__subtitle--about {
-  background: var(--clr-accent);
+  background-color: var(--clr-accent);
+  color: var(--clr-text) ;
   padding: .25em 1em;
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
@@ -133,14 +140,18 @@ h3 { font-size: var(--fs-h3); }
 /* Header */
 
 header {
+  background-color: var(--clr-text);
   display: flex;
   justify-content: space-between;
   padding: 1em;
-  border-bottom: 1px solid var(--clr-accent);
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  box-shadow: 0 1px 5px -3px var(--clr-dark);
 }
 
 .logo {
-  max-width: 60px;
+  max-width: 40px;
 }
 
 .nav {
@@ -182,13 +193,13 @@ header {
 /* Hamburger */
 
 .nav-toggle {
-  padding: .65em;
+  /* padding: .65em; */
   background: transparent;
   border: 0;
   cursor: pointer;
-  position: absolute;
-  right: 1em;
-  top: 1em;
+  /* position: absolute; */
+  /* right: 1em; */
+  /* top: 1em; */
   z-index: 1000;
 }
 
@@ -197,7 +208,7 @@ header {
 }
 
 .nav-open .nav-toggle {
-  position: fixed;
+  /* position: fixed; */
 }
 
 .nav-open .hamburger {
@@ -247,6 +258,7 @@ header {
 
 .intro {
   position: relative;
+  margin-top: 50px;
 }
 
 .intro__img {
@@ -257,7 +269,7 @@ header {
   .intro {
     display: grid;
     width: min-content;
-    margin: 0 auto;
+    margin: 50px auto 0;
     grid-column-gap: 1em;
     grid-template-areas:
       "img title"

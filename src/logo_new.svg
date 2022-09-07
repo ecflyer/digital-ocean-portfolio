@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="381">
+  <!-- <path class="rect" d="M0 0 L512 0 L512 512 L0 512 L0 0" /> -->
+  <!-- <path d="M220 0 L440 381 L0 381 L220 0" fill="none" stroke="blue" stroke-width="1" /> -->
+  <!-- <path d="M220 190 L275 285 L165 285 L220 190" fill="red" /> -->
+  <path d="M220 0 L275 285 L220 190 L0 381 L220 0" fill="#051529" />
+  <path d="M440 381 L165 285 L275 285 L220 0 L440 381" fill="#0d6c94" />
+  <path d="M0 381 L220 190 L165 285 L440 381 L0 381" fill="#0fffff" />
+  <!-- <circle r="64" cx="220" cy="254" fill="blue" stroke="none" /> -->
+</svg>
